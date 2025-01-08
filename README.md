@@ -1,14 +1,30 @@
-# RECOUN
-This project is written in relation to hacking and security. As you know, before hacking somewhere, you need to get useful information about it.<br>
-In this project, if you want to hack a website, these codes can provide you with useful information. <br>
-put, this code is written raw and you can use the information obtained from it in other codes,<br>
-the information that is provided to you includes all the web paths, all active subdomains and their ips and ports Pages will be opened and titled,<br>
-as well as a photo of the desired website that is saved in the files/gowitness path,<br>
-displaying information about website building technologies and whois information.<br>
-To use, you need to run<br>
-`pip install -r requirements.txt`<br>
-command You have to install the prerequisites of the program<br>
-Then all you have to do is run the main file with the url argument as the desired site, such as<br>
-`python main.py --url google.com`<br>
-But be careful to enter the address without subdomain and protocol, enjoy!<br>
-note : for image from website you should have google-chrome on your system.
+# 🌐 RECOUN
+
+**RECOUN** is a project focused on hacking and security. It is designed to help gather useful information about a target before initiating any hacking activities.
+
+---
+
+## ✨ Features
+
+This tool provides the following capabilities for a target website:
+
+- 🔍 **Web Paths**: Enumerates all available web paths.
+- 🌐 **Active Subdomains**: Identifies subdomains along with their IPs and ports.
+- 📧 **Emails & Phone Numbers**: Extracts emails and phone numbers for each subdomain.
+- 🖼️ **Website Screenshot**: Captures a screenshot of the target website, saved in the `files/gowitness` directory.
+- 🛠️ **Website Technologies**: Displays information about the technologies used to build the site.
+- 🗂️ **WHOIS Information**: Retrieves WHOIS details for the target website.
+
+---
+
+## ⚙️ Installation and Using
+
+Follow these steps to set up the tool:
+
+1. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+2. run the command with target url, enter the url without subdomain:
+   ```bash
+   python main.py --url example.com
+
